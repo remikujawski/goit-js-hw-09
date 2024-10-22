@@ -5,6 +5,8 @@
   |============================
 */
 /* Common styles */
+/* @import url('./modern-normalize.min.css'); */
+/* @import url('./simple-lightbox.min.css'); */
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
@@ -15,4 +17,5 @@
 @import url('./vite-promo.css');
 @import url('./badges.css');
 @import url('./back-link.css');
+@import url('./gallery.css');
 @import url('./footer.css');
