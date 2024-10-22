@@ -1,0 +1,41 @@
+.feedback-form{
+    display: inline-grid !important;
+    width: 300px;
+    text-align: left;
+}
+
+.feedback-form input, 
+.feedback-form textarea,
+.feedback-button{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.feedback-form input, 
+.feedback-form textarea{
+    margin-top: 5px;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+.feedback-form label,
+.feedback-button{
+    margin-top: 10px;
+}
+
+.feedback-button{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 8px;
+    border: 1px solid #4E75FF;
+    border-radius: 8px;
+    background: #4E75FF;
+    color: #ffffff;
+}
+.feedback-button:hover{
+    background: #ffffff;
+    color: #4E75FF;
+}
